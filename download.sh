@@ -1,0 +1,1 @@
+scp -r root@10.30.8.195:/media/data/yagna_runtime_test .
