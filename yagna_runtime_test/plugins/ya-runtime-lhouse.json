@@ -1,0 +1,11 @@
+[
+  {
+    "name": "lhouse",
+    "version": "0.1.0",
+    "supervisor-path": "exe-unit",
+    "runtime-path": "ya-runtime-basic-auth/ya-runtime-lhouse",
+    "description": "Service wrapper for Lighthouse",
+    "extra-args": ["--runtime-managed-image"]
+  }
+]
+
