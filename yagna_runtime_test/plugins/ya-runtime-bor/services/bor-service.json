@@ -5,9 +5,9 @@
   "bindHttps": "0.0.0.0:12263",
   "bindHttp": "0.0.0.0:12264",
   "from": "/",
-  "to": "http://51.38.53.113:8545",
+  "to": "http://127.0.0.1:8545",
   "cert": {
-    "path": "/privatecerts/server.cert",
-    "keyPath": "/privatecerts/server.key"
+    "path": "/media/data/yagna_runtime_test/certs/server.cert",
+    "keyPath": "/media/data/yagna_runtime_test/certs/server.key"
   }
 }
