@@ -1,0 +1,1 @@
+ya-provider run --app-key aeb90d6cdec541b788250c92825861a4 --subnet box-proxy-test

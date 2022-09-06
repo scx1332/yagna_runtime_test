@@ -1,0 +1,39 @@
+{
+  "ver": "V1",
+  "active": [
+    "lhouse",
+    "erigon",
+    "bor"
+  ],
+  "presets": [
+    {
+      "name": "erigon",
+      "exeunit-name": "erigon",
+      "pricing-model": "linear",
+      "initial-price": 0.0,
+      "usage-coeffs": {
+        "golem.usage.duration_sec": 0.0001
+      }
+    },
+    {
+      "name": "lhouse",
+      "exeunit-name": "lhouse",
+      "pricing-model": "linear",
+      "initial-price": 0.0,
+      "usage-coeffs": {
+        "golem.usage.duration_sec": 0.0001
+      }
+    },
+    {
+      "name": "bor",
+      "exeunit-name": "bor-service",
+      "pricing-model": "linear",
+      "initial-price": 0.0,
+      "usage-coeffs": {
+        "golem.usage.cpu_sec": 0.0,
+        "golem.usage.duration_sec": 0.0,
+	"http-auth.requests": 0.00001
+      }
+    }
+  ]
+}
